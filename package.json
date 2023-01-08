@@ -15,7 +15,8 @@
     ]
   },
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "jest --watchAll"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
